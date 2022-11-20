@@ -1,0 +1,152 @@
+body {
+    text-align: center;
+}
+
+#cont {
+    width: 645px;
+    margin: 0 auto 0 auto;
+    text-align: left;
+}
+
+#encabezado {
+    height: 32px;
+    margin-bottom: 40px;
+    width: 693px;
+}
+
+#contenido {
+    width: 500px;
+    float: left;
+    margin-bottom: 70px;
+}
+
+#menu {
+    width: 180px;
+    float: left;
+    text-transform: uppercase
+}
+
+#pie {
+    clear: both;
+    height: 296px;
+}
+
+#cont {
+    width: 693px;
+    margin: 0 auto 0 auto;
+    text-align: left;
+}
+
+#encabezado {
+    height: 32px;
+    margin-bottom: 40px;
+    width: 693px;
+}
+
+
+/*los textos del encabezado lo dejamos para mas adelante
+porque tenemos que hacer reemplazo de texto por imagen*/
+
+#contenido {
+    width: 500px;
+    float: left;
+}
+
+#contenido h2 {
+    font-size: 18px;
+    color: #464545;
+    font-weight: normal
+}
+
+#contenido h2 span {
+    color: #a7a7a7;
+}
+
+
+/*esto nos sirve para cambiar
+ el color a gris en los titulos cuando colocamos la etiqueta span!*/
+
+#contenido p {
+    font-size: 13px;
+}
+
+#menu {
+    width: 180px;
+    float: left;
+    text-transform: uppercase
+}
+
+#pie {
+    clear: both;
+    height: 256px;
+}
+
+#pie h2 {
+    font-size: 18px;
+    color: #464545;
+    font-weight: normal
+}
+
+#pie h2 span {
+    color: #a7a7a7;
+}
+
+#pie p {
+    text-align: center;
+    font-size: 13px;
+    padding-top: 10px;
+    clear: both;
+}
+
+div#menu ul li {
+    border-left: 4px solid #e93700;
+    margin-top: 6px;
+    padding: 2px 0 2px 4px;
+    list-style: none;
+}
+
+#menu ul li a {
+    font-size: 12px;
+    color: #464545;
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    color: #e93700
+}
+
+#menu ul {
+    margin: 0;
+    padding-left: 80px;
+}
+
+#menu h3 {
+    color: #e93700;
+    font-size: 18px;
+    font-weight: normal;
+    padding-left: 80px;
+}
+
+#foto1 {
+    margin: 10px 9px 15px 9px;
+}
+
+#parrafo {
+    width: 500px;
+    float: inline-start;
+    margin-bottom: 70px;
+    align-self: flex-end;
+    text-align: justify;
+}
+
+#parrafo2 {
+    width: 500px;
+    float: inline-start;
+    margin-bottom: 70px;
+    align-self: flex-end;
+    text-align: left;
+}
+
+#encabezadoss {
+    text-align: center;
+}
